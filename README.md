@@ -11,24 +11,23 @@ This project plays **locally stored audio files** using the **HTML5 Audio API** 
 - [Tech Stack](#tech-stack)
 - [APIs Used](#apis-used)
 - [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
 - [Usage](#usage)
 - [Preview](#preview)
 - [Future Enhancements](#future-enhancements)
-- [Working Demo](#Working-demo)
+- [Demo](#demo)
 - [Support](#support)
 - [Author](#author)
 
 ---
 
-## 📌 Overview
+## 📌Overview
 
 This **Music Player Web App** allows users to play songs directly in the browser without any external services.  
 It dynamically updates the **song title, artist, cover image**, and visually highlights the **currently playing track** in the playlist.
 
 ---
 
-## ✨ Features
+## ✨Features
 
 - ▶️ Play / Pause functionality  
 - ⏮️ Previous & ⏭️ Next track controls  
@@ -41,15 +40,15 @@ It dynamically updates the **song title, artist, cover image**, and visually hig
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️Tech Stack
 
 - **HTML5** – Markup structure  
 - **CSS3** – Styling and animations  
-- **JavaScript (ES6)** – Logic & interactivity  
+- **JavaScript** – Logic & interactivity  
 
 ---
 
-## 🔌 APIs Used
+## 🔌APIs Used
 
 - **HTML Audio API**  
   Used for audio playback, duration tracking, volume control, and seeking.
@@ -58,7 +57,7 @@ It dynamically updates the **song title, artist, cover image**, and visually hig
 
 ---
 
-## 📂 Project Structure
+## 📂Project Structure
 ```
 Music-Player/
 │
@@ -80,7 +79,7 @@ Music-Player/
 ```
 ---
 
-## 🎶 Usage
+## 🎶Usage
 
  - Click a song from the playlist to start playback
 
@@ -94,7 +93,8 @@ Music-Player/
  
  ---
  
- ## 🔍 Preview
+ ## 🔍Preview
+ 
  - ### Preview 1
  <img width="1358" height="645" alt="Screenshot 2025-12-13 201457" src="https://github.com/user-attachments/assets/99f6637f-8d78-4c05-bb0f-b89fc159eeea" />
 
@@ -109,7 +109,7 @@ Music-Player/
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀Future Enhancements
 
  - 🔀 Shuffle & repeat modes
 
@@ -121,12 +121,13 @@ Music-Player/
  
  ---
  
- ## 🖼️ Working Demo
+ ## 🖼️Demo
 
+https://github.com/user-attachments/assets/af29fbcf-8e16-46b5-852d-2b74dc5d28e9
 
  ---
 
- ## ⭐ Support
+ ## ⭐Support
 
  - If you find this project helpful:
 
@@ -138,9 +139,16 @@ Music-Player/
 
 ---
 
-## 👤 Author
+## 👤Author
 
-### Ayush Tripathi
+### Ayush Tripathi 👨‍💻
+Developer of Music-Player. 
+
+ **🔗 Profiles**
+
+📧 **Email:** [Connect with me](ayushtripathi9821@gmail.com)
+
+💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/ayush-tripathi45/)
 
 ---
 
