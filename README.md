@@ -41,7 +41,6 @@ It dynamically updates the **song title, artist, cover image**, and visually hig
 ---
 
 ## 🛠️Tech Stack
-
 - **HTML5** – Markup structure  
 - **CSS3** – Styling and animations  
 - **JavaScript** – Logic & interactivity  
@@ -122,7 +121,6 @@ Music-Player/
  ---
  
  ## 🖼️Demo
-
 https://github.com/user-attachments/assets/af29fbcf-8e16-46b5-852d-2b74dc5d28e9
 
  ---
