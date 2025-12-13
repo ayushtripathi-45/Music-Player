@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="playlist.svg" alt="playlist" id="playlist-img">
+        <h2>Feel The Music</h2>
+        <img src="music.svg" alt="music" id="music-img">
+    </header>
+    <main>
+        <div class="left">
+           <div class="song-img">
+
+           </div>
+           <div class="volume-div">
+             <div class="volume-img">
+              <img src="volume.svg" alt="volume" id="vol-svg">
+              </div>
+            <input type="range" id="volume-range" onchange="volume()">
+           </div>
+        </div>
+        <div class="right">
+            <div class="details">
+                <h3 id="song-name">Dil Leke</h3>
+                <h5 id="song-artist">Shaan, Shreya Ghoshal</h5>
+            </div>
+        <input type="range" id="song-duration" onchange="duration()">
+        <div class="controls">
+            <div class="prev-img">
+                <img src="previousicon.svg" alt="previous" id="prev-img" onclick="previousSong()">
+            </div>
+            <div class="play-pause">
+                <img src="playicon.svg" alt="play" id="play-pause" onclick="playPause()">
+            </div>
+            <div class="next-img">
+                <img src="nexticon.svg" alt="next" id="next-img" onclick="nextSong()">
+            </div>
+        </div>
+        </div>
+        <div class="playlist" >
+            <div class="playlist-song">
+                <img src="DilLeke.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Dil Leke</h2>
+                    <h4>Shaan, Shreya Ghoshal</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="KyaBatayein.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Kya Batayein</h3>
+                    <h4>Samyak, Abhijeet Ch.</h2>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="LabonKo.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Labon Ko</h2>
+                    <h4>KK</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="MainHoonNa.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Mai Hoon Na</h2>
+                    <h4>Sonu Nigam, Shreya Ghoshal</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="PalPalDil.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Pal Pal Dil Ke Paas</h2>
+                    <h4>Kishore Kumar</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="PannaKiTammna.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Panna Ki Tamanna</h2>
+                    <h4>Kishore Kumar, Lata Mangeshkar, R.D.Burman</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="RanjheyaVe.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Ranjheya Ve</h2>
+                    <h4>Zain Zohaib</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="RishteNaate.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Rishte Naate</h2>
+                    <h4>Rahat Fateh Ali Khan</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="SunoNaSunoNa.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Suno Na Suno Na</h2>
+                    <h4>Abhijeet</h4>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="Tauba.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Tauba Tumhare Ishare</h2>
+                    <h4>Abhijeet, Alka Yagnik</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
