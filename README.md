@@ -27,6 +27,10 @@ It dynamically updates the **song title, artist, cover image**, and visually hig
 
 ---
 
+🚀 **Live Demo** [Music Player](https://music-player-by-ayush.netlify.app/)
+
+---
+
 ## ✨Features
 
 - ▶️ Play / Pause functionality  
