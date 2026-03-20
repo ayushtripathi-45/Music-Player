@@ -4,7 +4,7 @@ A modern and interactive **Music Player** built using **HTML, CSS, and JavaScrip
 This project plays **locally stored audio files** using the **HTML5 Audio API** and provides a smooth, user-friendly listening experience.
 
 ---
-
+ 
 ## 📑 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
